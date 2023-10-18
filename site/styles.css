@@ -1,0 +1,132 @@
+/* Применение стилей к элементу <header> */
+header {
+    background-color: rgb(5, 5, 68); /* Синий цвет фона */
+    text-align: center;     /* Выравнивание текста по центру */
+}
+
+/* Стили для заголовка (названия организации) */
+header h1 {
+    color: white; /* Цвет текста в заголовке */
+}
+
+/* Стили для остального текста внутри <header> */
+header p {
+    color: white; /* Цвет текста в параграфах */
+}
+
+/* Стили для навигационного меню */
+header nav ul {
+    list-style: none; /* Удаление маркеров списка */
+}
+
+header nav ul li {
+    display: inline; /* Отображение элементов горизонтально */
+    margin-right: 20px; /* Расстояние между элементами меню */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Удаление подчеркивания для ссылок */
+    color: white; /* Цвет текста ссылок */
+    transition: color 0.3s; /* Плавное изменение цвета при наведении */
+}
+
+header nav ul li a:hover {
+    color: yellow; /* Новый цвет при наведении (например, желтый) */
+}
+
+/* Стиль контейнера с основными элементами */
+#content {
+    background-color: rgb(77, 77, 219); /* Синий цвет фона */
+    width: 100%; /* Устанавливаем ширину */
+    height: 400px; /* Устанавливаем высоту */
+}
+
+/* Стили для фреймов */
+.frame {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.frame img {
+    max-width: 100%;
+}
+
+/* Стили для кнопки-ссылки */
+.frame a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+}
+
+/* Стили для формы и кнопки-ссылки */
+.contact-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стили для кнопки-ссылки "Вернуться на главную" */
+.back-to-home {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+}
+
+/* Стили для таблицы */
+#catalog {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+table img {
+    max-width: 100px;
+}
+
+table h2 {
+    margin: 10px 0;
+}
+
+/* Стили для кнопки-ссылки "Вернуться на главную" */
+.back-to-home {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    margin-top: 20px;
+}
