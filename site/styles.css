@@ -41,6 +41,24 @@ header nav ul li a:hover {
     height: 400px; /* Устанавливаем высоту */
 }
 
+/* Кнопка возвращения на главную страницу */
+.escape {
+    background-color: blue; /* Устанавливаем фоновый цвет кнопки */
+    color: white; /* Устанавливаем цвет текста на кнопке */
+    padding: 10px 20px; /* Размер внутренних отступов кнопки */
+    border: none; /* Убираем границу кнопки */
+    cursor: pointer; /* Изменяем указатель мыши при наведении на кнопку */
+    transition: background-color 0.3s; /* Добавляем плавное изменение цвета фона */
+}
+
+.escape:hover {
+    background-color: darkblue; /* Изменяем цвет фона при наведении */
+}
+
+.escape:active {
+    background-color: lightblue; /* Изменяем цвет фона при нажатии */
+}
+
 /* Стили для фреймов */
 .frame {
     border: 1px solid #ccc;
@@ -99,6 +117,14 @@ header nav ul li a:hover {
     margin-top: 10px;
 }
 
+/* Стили для кнопки-ссылки "Вернуться в каталог" */
+.back-to-catalog {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    margin-top: 10px;
+}
+
 /* Стили для таблицы */
 #catalog {
     padding: 20px;
@@ -114,7 +140,11 @@ table td {
     border: 1px solid #ccc;
 }
 
-table img {
+table {
+    max-width: 100px;
+}
+
+.img-catalog {
     max-width: 100px;
 }
 
@@ -129,4 +159,21 @@ table h2 {
     text-decoration: none;
     color: blue;
     margin-top: 20px;
+}
+
+.body-activity-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+iframe {
+    width: 100%; /* Установите нужную ширину фреймов */
+    height: 400px; /* Установите нужную высоту фреймов */
+    border: none;
+}
+
+.img-of-frame {
+    max-width: 300px;
 }
